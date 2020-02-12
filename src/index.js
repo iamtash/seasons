@@ -22,7 +22,7 @@ class App extends React.Component {
             return <div><SeasonDisplay lat={this.state.lat} /></div>
         }
 
-        return <div><Spinner /></div>
+        return <div><Spinner message="Please accept location request" /></div>
     }
 }
 
